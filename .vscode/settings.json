@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.html": "html",
+        "magic.h": "c",
+        "module.h": "c",
+        "wrapfs.h": "c"
+    }
+}

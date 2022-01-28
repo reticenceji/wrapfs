@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include/",
+                "/usr/local/include/",
+                "/usr/lib/gcc/x86_64-linux-gnu/9/include/",
+                "/usr/lib/modules/5.13.0-22-generic/build/arch/x86/include/",
+                "/usr/lib/modules/5.13.0-22-generic/build/include/",
+                "/usr/lib/modules/5.13.0-22-generic/build/include/uapi/",
+                "/usr/lib/modules/5.13.0-22-generic/build/arch/x86/include/generated/"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-gcc-x64",
+            "defines": [
+                "__GNUC__",
+                "__KERNEL__",
+                "KBUILD_MODNAME=\"GUARD_FS\""
+            ],
+            "browse": {
+                "path": [
+                    "/usr/src/linux-headers-5.13.0-22-generic/include/asm-generic"
+                ]
+            }
+        }
+    ],
+    "version": 4
+}
